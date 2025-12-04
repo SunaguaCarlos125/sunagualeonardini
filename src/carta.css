@@ -1,0 +1,15 @@
+.carta{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    border: 2px solid black;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;   
+    border-radius: 50%;
+}
