@@ -15,13 +15,13 @@ function App() {
                       <ul className="navbar-nav"  >
                         
                         <li className="nav-item">
-                          <Link className="nav-link" to="/">Inicio</Link>
+                          <Link className="nav-link" to="/sunagualeonardini/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" to="/modal">Modales</Link>
+                          <Link className="nav-link" to="/sunagualeonardini/modal">Modales</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" to="/carta">Cartas</Link>
+                          <Link className="nav-link" to="/sunagualeonardini/carta">Cartas</Link>
                         </li>
                         
                       </ul>
@@ -42,9 +42,9 @@ function App() {
 
         <div className="contenido">
           <Routes>
-            <Route path="/" element={<Principal/>} />
-            <Route path="/modal" element={<Modales/>} />
-            <Route path="/carta" element={<Carta imagen1="perro.jpg" imagen2="perros.jpg" titulo1="docto1" titulo2="docto2" descripcion1="info perro1" descripcion2="info perro2" />} />
+            <Route path="/sunagualeonardini/" element={<Principal/>} />
+            <Route path="/sunagualeonardini/modal" element={<Modales/>} />
+            <Route path="/sunagualeonardini/carta" element={<Carta imagen1="perro.jpg" imagen2="perros.jpg" titulo1="docto1" titulo2="docto2" descripcion1="info perro1" descripcion2="info perro2" />} />
 
           </Routes>
 
